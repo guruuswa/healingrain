@@ -1,19 +1,30 @@
-<?php get_header(); ?>
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?> 
+<?php 
 
-<?php $image = get_field('cover'); ?>
+get_header(); 
 
+if (have_posts()) : while (have_posts()) : the_post(); 
+
+$cats = '';
+$cover = get_field('cover')['sizes']['large'];
+$categories = get_the_terms(get_the_ID(), 'book_genre');
+foreach($categories as $cat) {
+	$cats .= sprintf('<a href="%s">%s</a>, ', get_term_link($cat), $cat->name);
+}
+
+$read = get_field('hasread') ? 'read' : 'unread';
+
+?>
 
   <div class="post clearfix" id="post-2063">
 
     <div class="title">
-        <h2><a href="#" rel="bookmark" title=""><?php the_title(); ?></a></h2>
+        <h2><?php the_title(); ?></h2>
     </div>
 
     <div class="revbox clearfix">
         <div class="revleft">
             <span><strong>Author:</strong> <?php echo get_field('author'); ?> </span>
-            <span><strong>Genre:</strong> <a href="#" rel="tag">Biography</a></span>
+            <span><strong>Genre:</strong> <?php echo rtrim($cats, ', '); ?></span>
         </div>
         <div class="revright">
             <span class="ratebg"><span class="rstar rate-<?php echo get_field('rating'); ?>"></span></span>
@@ -21,11 +32,16 @@
     </div>
 
     <div class="entry">
-        <a class="bookshot" href="#">
-        <img class="bookimg" src="<?php echo $image['sizes']['large']; ?>" alt="" width="250" height="388"></a>
-        <?php echo get_field('description'); ?>
+        <img class="bookimg" src="<?php echo $cover; ?>">
+        <div class="synopsis">
+        	<?php echo get_field('description'); ?>
+        </div>
         <div class="clear"></div>
     </div>
+
+    <div class="postmeta">
+		<span class="<?php echo $read;?>"> <?php echo get_field('pagecount'); ?> pages</span>
+	</div>
 
 </div>
 

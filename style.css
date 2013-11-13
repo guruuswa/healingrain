@@ -22,9 +22,6 @@ body {
     background: url(img/body.jpg);
 }
 
-ol, ul {
-    list-style: none;
-}
 
 blockquote, q {
     quotes: none;
@@ -61,7 +58,15 @@ table {
 } /* End Clearfix */
 
 
+span.unread {
+    background: url(img/unread.png) left center no-repeat;
+    padding-left: 20px;
+}
 
+span.read {
+    background: url(img/read.png) left center no-repeat;
+    padding-left: 20px;
+}
 
 body,
 input,
@@ -307,13 +312,10 @@ img.postimg {
 }
 
 .title h2 {
+    color: #444;
     font-size: 26px;
     margin: 5px 0px 15px 0px;
     font-family: YanoneKaffeesatzRegular;
-}
-
-.title h2  a:link,.title h2  a:visited {
-    color: #444;
 }
 
 .postmeta {
@@ -367,6 +369,43 @@ span.categori {
 .bookimg {
     float: left;
     margin: 5px 20px 20px 0px;
+    height: 388px;
+    width: 250px;
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 8px #999;
+    -webkit-box-shadow: 1px 1px 8px #999;
+    box-shadow: 1px 1px 8px #999;
+}
+
+.thumb {
+    float: left;
+    height: 100px;
+    width: 80px;
+    margin: 2px 12px 2px 0px;
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 8px #999;
+    -webkit-box-shadow: 1px 1px 8px #999;
+    box-shadow: 1px 1px 8px #999;
+}
+
+.synopsis {
+	float: right;
+	width: 580px;
+}
+
+.navigation p a {
+    width: 100px;
+    background: #9B3607;
+    border: 1px solid #702502;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 5px 5px;
+    -webkit-box-shadow: 0px 1px 0px 0px #FFF0DB;
+    -moz-box-shadow: 0px 1px 0px 0px #FFF0DB;
+    box-shadow: 0px 1px 0px 0px #FFF0DB;
+    display: inline-block;
+    text-align: center;
 }
 
 .revbox {

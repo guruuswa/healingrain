@@ -2,11 +2,24 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-<h2><?php the_title(); ?></h2>
+<?php $cover = get_field('cover')['sizes']['medium']; ?>
 
-<?php the_excerpt(); ?> <a href="<?php the_permalink(); ?>" class="more-link">Read the rest of this entry »</a>
+<div class="revbox clearfix">
+    <div class="revleft">
+        <img class="thumb" src="<?php echo $cover; ?>">
+        <span><strong><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></strong></span>
+        <span><?php echo get_field('author'); ?></span>
+        <span><?php echo get_field('pagecount'); ?> pages</span>
+    </div>
+    <div class="revright">
+        <span class="ratebg"><span class="rstar rate-<?php echo get_field('rating'); ?>"></span></span>
+    </div>
+</div>
+<?php endwhile; ?>
 
-<?php endwhile; else: ?>
+<div class="navigation"><p><?php posts_nav_link('&nbsp;&nbsp;'); ?></p></div>
+
+<?php else: ?>
 
 <p><?php _e('Sorry, no posts matched your criteria.'); ?></p><?php endif; ?>
 

@@ -185,7 +185,6 @@ function book_change_login_image() {
 	";
 }
 
-
 add_action('init', 'create_book_type');
 add_action('pre_get_posts', 'book_orderby');
 add_action('init', 'create_book_genres', 0) ;
