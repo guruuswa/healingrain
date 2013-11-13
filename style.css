@@ -1,0 +1,441 @@
+/*
+Theme Name: Healing Rain
+Author: K. Chikuse
+Author URI: http://praisegod.co.za/
+Description:  Theme for the library management system
+Version: 1.0
+*/
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+    background: url(img/body.jpg);
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+:focus {
+    outline: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+} /* Hide from IE Mac \*/.clearfix {
+    display: block;
+} /* End hide from IE Mac */.none {
+    display: none;
+} /* End Clearfix */
+
+
+
+
+body,
+input,
+textarea,
+button {
+    font: 12px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666666;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #f15755;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #555;
+}
+
+a img {
+    border: none;
+}
+
+p,
+pre,
+ul,
+ol,
+dl,
+dd,
+blockquote,
+address,
+table,
+fieldset,
+form {
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #fff;
+    margin: 10px 0;
+}
+
+table td,table th {
+    text-align: left;
+    border: 1px solid #fff;
+    padding: .4em .8em;
+}
+
+table th {
+    background: #ddd;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: 1px solid #fff;
+}
+
+table td {
+    border: 1px solid #fff;
+    background: #eee;
+    color: #555;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+img.alignnone {
+    display: inline;
+    margin: 0 0 20px;
+}
+
+img.alignright {
+    display: inline;
+    margin: 0px 0 20px 20px;
+}
+
+img.alignleft {
+    display: inline;
+    margin: 0px 20px 20px 0;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html[xmlns] .clearfix {
+    display: block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.entry h1,
+.entry h2,
+.entry h3,
+.entry h4,
+.entry h5,
+.entry h6 {
+    margin: 0 0 20px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    padding: 0;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0 0 20px 0;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h4 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+h6 {
+    font-size: 10px;
+    line-height: 16px;
+}
+
+/* FONTS */
+
+
+@font-face {
+    font-family: 'YanoneKaffeesatzRegular';
+    src: url('fonts/YanoneKaffeesatz-Regular-webfont.eot');
+    src: url('fonts/YanoneKaffeesatz-Regular-webfont.eot?') format('embedded-opentype'),
+         url('fonts/YanoneKaffeesatz-Regular-webfont.woff') format('woff'),
+         url('fonts/YanoneKaffeesatz-Regular-webfont.ttf') format('truetype'),
+         url('fonts/YanoneKaffeesatz-Regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Outer */
+
+#wrapper {    
+    padding: 50px 0px;
+}
+
+#casing {
+    width: 960px;
+    margin: 0px auto;
+    background: url(img/content.png);
+    padding: 0px 0px;
+}
+
+/* Head */
+
+#masthead {
+    width: 960px;
+    margin: 0px auto;
+}
+
+#head {
+    height: 100px;
+    background: url(img/head.png);
+}
+
+#blogname {
+    width: 500px;
+    margin: 10px 0px 0px 0px;
+    float: left;
+}
+
+#blogname h1 {
+    font-size: 36px;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 25px;
+}
+
+#blogname h1 a:link, #blogname h1 a:visited {
+    color: #fff;
+}
+	
+
+	
+/* Article Content */
+
+#content {
+    width: 910px;
+    float: left;
+    margin-left: 25px;
+    padding: 30px 0px;
+}
+
+.post {
+    padding: 20px 20px;
+    background: #fff;
+    border: 1px solid #d0b48b;
+}
+
+img.postimg {
+    float: left;
+    margin: 5px 20px 20px 0px;
+}
+
+.title h2 {
+    font-size: 26px;
+    margin: 5px 0px 15px 0px;
+    font-family: YanoneKaffeesatzRegular;
+}
+
+.title h2  a:link,.title h2  a:visited {
+    color: #444;
+}
+
+.postmeta {
+    font-size: 12px;
+    padding: 0px 0px;
+    margin-bottom: 15px;
+}
+
+.postmeta span {
+    margin: 0px 10px 0px 0px;
+    color: #d65806;
+}
+
+.postmeta span a {
+    color: #d65806;
+}
+
+
+span.categori {
+    background: url() left center no-repeat;
+    padding-left: 20px;
+}
+
+.entry {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    overflow: hidden;
+}
+
+.entry a:link,
+.entry a:visited {
+    color: #FF0000;
+}
+
+.entry a:hover {
+    color: #FF0000;
+}
+
+.entry ul, .entry ol {
+    margin: .4em 0 1em;
+    line-height: 150%;
+}
+
+.entry ul li, .entry ol li {
+    list-style-position: outside;
+    margin-left: 1.6em;
+}
+
+
+/* Review */
+.bookimg {
+    float: left;
+    margin: 5px 20px 20px 0px;
+}
+
+.revbox {
+    background: #fff2df;
+    padding: 5px 5px;
+    border: 1px solid #f0dec5;
+    margin-bottom: 20px;
+}
+
+.revleft {
+    float: left;
+    width: 680px;
+}
+
+.revleft span {
+    display: block;
+    padding: 5px 5px;
+}
+
+.revright {
+    width: 150px;
+    float: right;
+}
+
+.revright span {
+    display: block;
+}
+
+.revright span.ratehead {
+    padding: 5px 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #C84A0D;
+    font-size: 14px;
+}
+
+.revright span.ratebg {
+    width: 125px;
+    height: 28px;
+    margin-left: 12px;
+    margin-top: 20px;
+    background: url(img/rbg.png);
+}
+
+.revright span.rstar {
+    height: 28px;
+    background: url(img/rstar.png);
+}
+
+.revright span.rate-0 {
+    width: 0px;
+}
+
+.revright span.rate-1 {
+    width: 25px;
+}
+
+.revright span.rate-2 {
+    width: 50px;
+}
+
+.revright span.rate-3 {
+    width: 75px;
+}
+
+.revright span.rate-4 {
+    width: 100px;
+}
+
+.revright span.rate-5 {
+    width: 125px;
+}
