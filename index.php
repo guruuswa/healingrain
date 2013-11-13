@@ -1,6 +1,20 @@
-<?php get_header(); ?>
+<?php get_header(); 
 
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+$posts = get_posts(array(
+	'post_type'		=> 'book',
+	'posts_per_page'=> 10,
+	'meta_key'		=> 'rating',
+	'orderby'		=> 'meta_value_num',
+	'order'			=> 'DESC'
+));
+
+if ($posts) { ?>
+
+<div class="title">
+    <h2>Books</h2>
+</div>
+
+<?php foreach( $posts as $post ) { ?>
 
 <?php $cover = get_field('cover')['sizes']['medium']; ?>
 
@@ -15,12 +29,12 @@
         <span class="ratebg"><span class="rstar rate-<?php echo get_field('rating'); ?>"></span></span>
     </div>
 </div>
-<?php endwhile; ?>
+<?php } ?>
 
 <div class="navigation"><p><?php posts_nav_link('&nbsp;&nbsp;'); ?></p></div>
 
-<?php else: ?>
+<?php } else { ?>
 
-<p><?php _e('Sorry, no posts matched your criteria.'); ?></p><?php endif; ?>
+<p><?php _e('Sorry, no posts matched your criteria.'); ?></p><?php } ?>
 
 <?php get_footer(); ?>
