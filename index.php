@@ -14,9 +14,13 @@ if ($posts) { ?>
     <h2>Books</h2>
 </div>
 
-<?php foreach( $posts as $post ) { ?>
+<?php 
 
-<?php $cover = get_field('cover')['sizes']['medium']; ?>
+foreach( $posts as $post ) { 
+
+$cover = get_field('cover')['sizes']['medium']; 
+
+?>
 
 <div class="revbox clearfix">
     <div class="revleft">
@@ -26,7 +30,9 @@ if ($posts) { ?>
         <span><?php echo get_field('pagecount'); ?> pages</span>
     </div>
     <div class="revright">
-        <span class="ratebg"><span class="rstar rate-<?php echo get_field('rating'); ?>"></span></span>
+        <span class="ratebg">
+        	<span class="rstar rate-<?php echo get_field('rating'); ?>"></span>
+        </span>
     </div>
 </div>
 <?php } ?>

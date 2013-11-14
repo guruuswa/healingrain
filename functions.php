@@ -119,7 +119,7 @@ function book_author_name( $name ) {
 }
 
 function book_remove_admin_menu_items() {
-	remove_menu_page('index.php');	
+	/*remove_menu_page('index.php');	
 	remove_menu_page('users.php');
 	remove_menu_page('edit.php');
 	//remove_menu_page('themes.php');		
@@ -135,6 +135,7 @@ function book_remove_admin_menu_items() {
 	//remove_submenu_page('options-general.php', 'options-media.php');
 	//remove_submenu_page('options-general.php', 'options-reading.php');
 	//remove_submenu_page('options-general.php', 'options-writing.php');
+	*/
 }
 
 function book_remove_admin_bar_items() {

@@ -45,6 +45,12 @@ $read = get_field('hasread') ? 'read' : 'unread';
 
 </div>
 
+
+<div class="navigation arrows"><p>
+<?php previous_post_link('%link', '&#65513;'); ?>&nbsp;&nbsp;
+<?php next_post_link('%link', '&#65515;'); ?>
+</p></div>
+
 <?php endwhile; else: ?>
 
 <p><?php _e('Sorry, no books matched your criteria.'); ?></p><?php endif; ?>
