@@ -13,7 +13,7 @@ $posts = get_posts(array(
 if ($posts) { ?>
 
 <div class="title">
-    <h2>Books</h2>
+    <h2><?php bloginfo('name'); ?></h2>
 </div>
 
 <?php 

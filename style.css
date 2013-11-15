@@ -3,7 +3,7 @@ Theme Name: Healing Rain
 Author: K. Chikuse
 Author URI: http://praisegod.co.za/
 Description:  Theme for the library management system
-Version: 1.0
+Version: 1.0.0
 */
 
 /* Reset */
@@ -392,6 +392,23 @@ span.categori {
 	float: right;
 	width: 580px;
 }
+
+.kumba {
+    position:absolute; 
+    left: 0px; 
+    top: 10px;
+}
+    .kumba img {
+        filter: gray;
+        -webkit-filter: grayscale(1);
+        -moz-transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+    .kumba img:hover {
+      filter: none;
+      -webkit-filter: none;
+    }
 
 .navigation p a {
     width: 100px;

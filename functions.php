@@ -22,7 +22,7 @@ function create_book_type() {
 		'labels'        => $labels,
 		'description'   => 'Holds library data',
 		'public'        => true,
-		'menu_position' => 0,
+		'menu_position' => 2,
 		'supports'      => array('title'),
 		'has_archive'   => true,
 		'menu_icon' 	=> get_bloginfo('template_directory') . '/img/16.png'
@@ -118,64 +118,6 @@ function book_author_name( $name ) {
 	return get_post_meta( $post->ID, 'author', true );
 }
 
-function book_remove_admin_menu_items() {
-	/*remove_menu_page('index.php');	
-	remove_menu_page('users.php');
-	remove_menu_page('edit.php');
-	//remove_menu_page('themes.php');		
-	remove_menu_page('link-manager.php');		
-	remove_menu_page('edit-comments.php');
-	remove_menu_page('options-general.php');	
-	remove_menu_page('tools.php');		
-	//remove_menu_page('plugins.php');		
-	//remove_menu_page('upload.php');
-	remove_menu_page('edit.php?post_type=page');
-	//remove_submenu_page('options-general.php', 'options-discussion.php');
-	//remove_submenu_page('options-general.php', 'options-permalink.php');
-	//remove_submenu_page('options-general.php', 'options-media.php');
-	//remove_submenu_page('options-general.php', 'options-reading.php');
-	//remove_submenu_page('options-general.php', 'options-writing.php');
-	*/
-}
-
-function book_remove_admin_bar_items() {
-	global $wp_admin_bar;
-    $wp_admin_bar->remove_menu('wp-logo');          // Remove the WordPress logo
-    $wp_admin_bar->remove_menu('about');            // Remove the about WordPress link
-    $wp_admin_bar->remove_menu('wporg');            // Remove the WordPress.org link
-    $wp_admin_bar->remove_menu('documentation');    // Remove the WordPress documentation link
-    $wp_admin_bar->remove_menu('support-forums');   // Remove the support forums link
-    $wp_admin_bar->remove_menu('feedback');         // Remove the feedback link
-    //$wp_admin_bar->remove_menu('site-name');        // Remove the site name menu
-    //$wp_admin_bar->remove_menu('view-site');        // Remove the view site link
-    $wp_admin_bar->remove_menu('updates');          // Remove the updates link
-    $wp_admin_bar->remove_menu('comments');         // Remove the comments link
-    $wp_admin_bar->remove_menu('new-content');      // Remove the content link
-    $wp_admin_bar->remove_menu('w3tc');             // If you use w3 total cache remove the performance link
-    //$wp_admin_bar->remove_menu('my-account');       // Remove the user details tab
-}
-
-function book_remove_dashboard_widgets() {
-	global $wp_meta_boxes;
-
-	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_quick_press']);
-	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);
-	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now']);
-	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);
-	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_recent_drafts']);
-	unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_comments']);
-	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
-	unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
-}
-
-function book_replace_dashboard_footer () {
-	echo '&copy; 2013 - K. Chikuse';
-}
-
-function book_change_login_url($url) {
-	return '';
-}
-
 function book_change_login_image() {
 	echo "
 	<style>
@@ -191,17 +133,11 @@ add_action('init', 'create_book_type');
 add_action('pre_get_posts', 'book_orderby');
 add_action('init', 'create_book_genres', 0) ;
 add_action("login_head", "book_change_login_image");
-add_action('admin_menu', 'book_remove_admin_menu_items');
-add_action('wp_dashboard_setup', 'book_remove_dashboard_widgets');
-add_action('wp_before_admin_bar_render', 'book_remove_admin_bar_items', 0);
 
 add_filter('the_author', 'book_author_name');
-add_filter('login_headerurl', 'book_change_login_url');
 add_filter('get_the_author_display_name', 'book_author_name');
-
 add_filter('post_updated_messages', 'book_updated_messages');
 add_filter('manage_book_posts_columns', 'book_admin_columns');
-add_filter('admin_footer_text', 'book_replace_dashboard_footer');
 add_filter('manage_edit-book_sortable_columns', 'book_register_sortable_columns');
 add_action('manage_book_posts_custom_column' , 'book_rating_custom_column', 10, 2);
 
