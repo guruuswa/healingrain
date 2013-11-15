@@ -1,11 +1,13 @@
 <?php get_header(); 
 
+$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+
 $posts = get_posts(array(
 	'post_type'		=> 'book',
 	'posts_per_page'=> 10,
-	'meta_key'		=> 'rating',
-	'orderby'		=> 'meta_value_num',
-	'order'			=> 'DESC'
+	'orderby'		=> 'title',
+	'order'			=> 'ASC',
+	'paged'			=> $paged
 ));
 
 if ($posts) { ?>

@@ -47,9 +47,27 @@ $read = get_field('hasread') ? 'read' : 'unread';
 
 
 <div class="navigation arrows"><p>
-<?php previous_post_link('%link', '&#65513;'); ?>&nbsp;&nbsp;
+
+<?php previous_post_link_plus( array(
+	'order_by' => 'post_title',
+	'in_same_cat' => false,
+	'format' => '%link',
+	'link' => '&#65513;',
+	) ); ?> 
+
+<?php next_post_link_plus( array(
+	'order_by' => 'post_title',
+	'in_same_cat' => false,
+	'format' => '%link',
+	'link' => '&#65515;',
+	) ); ?>
+
+</p></div> 
+<!--
+<div class="navigation arrows"><p>
+<?php previous_post_link('%link', '&#65513;'); ?>
 <?php next_post_link('%link', '&#65515;'); ?>
-</p></div>
+</p></div>!-->
 
 <?php endwhile; else: ?>
 
