@@ -1,6 +1,8 @@
-<?php get_header(); 
+<?php 
 
-$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+get_header(); 
+
+$paged = get_query_var('paged') ? get_query_var('paged') : 1;
 
 $pageTitle = get_bloginfo('name');
 
@@ -12,18 +14,20 @@ $posts = get_posts(array(
 	'paged'			=> $paged
 ));
 
-if ($posts) : ?>
+if ($posts) : 
 
-<?php get_template_part( 'partials/title', 'page' ); ?>
+	get_template_part( 'partials/title', 'page' );
 
-<?php foreach( $posts as $post ) : ?>
+	foreach( $posts as $post ) :
 
-<?php get_template_part( 'partials/loop', 'page' ); ?>
+		get_template_part( 'partials/loop', 'page' );
 
-<?php endforeach; ?>
+	endforeach;
 
-<?php get_template_part( 'partials/foot', 'page' ); ?>
+	get_template_part( 'partials/foot', 'page' );
 
-<?php endif; ?>
+endif;
 
-<?php get_footer(); ?>
+get_footer();
+
+?>

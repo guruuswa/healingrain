@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-<!-- generator="WordPress/3.7.1" created="2013-11-15 19:52" -->
+<!-- generator="WordPress/3.7.1" created="2013-11-16 21:35" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Library</title>
 	<link>http://localhost:8080/bookmanager</link>
 	<description>Book management system</description>
-	<pubDate>Fri, 15 Nov 2013 19:52:08 +0000</pubDate>
+	<pubDate>Sat, 16 Nov 2013 21:35:15 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost:8080/bookmanager</wp:base_site_url>
@@ -105,7 +105,7 @@
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_527f46b5a750e</wp:meta_key>
-			<wp:meta_value><![CDATA[a:14:{s:3:"key";s:19:"field_527f46b5a750e";s:5:"label";s:4:"ISBN";s:4:"name";s:4:"isbn";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:10:"formatting";s:4:"none";s:9:"maxlength";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:4:"null";s:8:"operator";s:2:"==";s:5:"value";s:0:"";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
+			<wp:meta_value><![CDATA[a:15:{s:3:"key";s:19:"field_527f46b5a750e";s:5:"label";s:4:"ISBN";s:4:"name";s:4:"isbn";s:4:"type";s:6:"number";s:12:"instructions";s:0:"";s:8:"required";s:1:"0";s:13:"default_value";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:3:"min";s:0:"";s:3:"max";s:0:"";s:4:"step";s:0:"";s:17:"conditional_logic";a:3:{s:6:"status";s:1:"0";s:5:"rules";a:1:{i:0;a:3:{s:5:"field";s:19:"field_527f46e6a7510";s:8:"operator";s:2:"==";s:5:"value";s:1:"0";}}s:8:"allorany";s:3:"all";}s:8:"order_no";i:2;}]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>field_527f46dda750f</wp:meta_key>
@@ -2056,7 +2056,7 @@ Whether you are a young couple just starting out or you've just celebrated your 
 
 In this sequel to her best-selling book He Came to Set the Captives Free, you will learn to stand victoriously against Satan, deal with the dangerous New Age teachings, recognize and deal with satanic ritualistic abuse of children, minister in the area of deliverance, and handle the rarely discussed problems people face after deliverance.
 
-Satan hates you and wants to destroy you. To be victorious you must Prepare for War.]]></wp:meta_value>
+<strong>Satan hates you and wants to destroy you. To be victorious you must Prepare for War.</strong>]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_description</wp:meta_key>
@@ -2332,125 +2332,6 @@ Revelation Visualized uses the King James Version. Salem Kirban is the author of
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>The Irreverent A-Z Wedding Guide</title>
-		<link>http://localhost:8080/bookmanager/book/the-irreverent-a-z-wedding-guide-is-the-ideal-book-for-anyone-getting-married-in-south-africa-who-is-ever-so-slightly-confused-about-the-whole-process-which-considering-what-a-wedding-entails-shoul/</link>
-		<pubDate>Sun, 10 Nov 2013 10:16:21 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false"></guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>158</wp:post_id>
-		<wp:post_date>2013-11-10 12:16:21</wp:post_date>
-		<wp:post_date_gmt>2013-11-10 10:16:21</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>the-irreverent-a-z-wedding-guide-is-the-ideal-book-for-anyone-getting-married-in-south-africa-who-is-ever-so-slightly-confused-about-the-whole-process-which-considering-what-a-wedding-entails-shoul</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>book</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="book_genre" nicename="secular"><![CDATA[Secular]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>subtitle</wp:meta_key>
-			<wp:meta_value><![CDATA[The Irreverent A-Z Wedding Guide]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_subtitle</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f46dda750f]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>author</wp:meta_key>
-			<wp:meta_value><![CDATA[Martin Heller; Francesca Bourke]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_author</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f45f0d7660]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>isbn</wp:meta_key>
-			<wp:meta_value><![CDATA[9780987005847]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_isbn</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f46b5a750e]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rating</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_rating</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f46e6a7510]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>pagecount</wp:meta_key>
-			<wp:meta_value><![CDATA[232]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_pagecount</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f4780a7512]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>publisher</wp:meta_key>
-			<wp:meta_value><![CDATA[Burnet Media]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_publisher</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f4614d7661]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>datepublished</wp:meta_key>
-			<wp:meta_value><![CDATA[2012-04-01]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_datepublished</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f47cca7515]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>description</wp:meta_key>
-			<wp:meta_value><![CDATA[The Irreverent A-Z Wedding Guide is the ideal book for anyone getting married in South Africa who is ever-so-slightly confused about the whole process. Which, considering what a wedding entails, should be just about the lot of you.
-
-Don’t know what a boutonniere is? Wondering how to choose a wedding planner? Or what to say in your speech? Need contact details for dressmakers or cake bakers? Advice on coping with your future in-laws? Think the wedding industry is a bit OTT? Don’t worry. Whether you’re the bride or groom – or anyone else attending – we’ve got you covered.
-
-Packed with useful information, indispensable advice, hilarious horror stories (all true) and recommended service-provider listings, The Irreverent A-Z Wedding Guide is the (independent) answer to all your wedding-related questions.]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_description</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f47a0a7513]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>notes</wp:meta_key>
-			<wp:meta_value><![CDATA[R150]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_notes</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f47bba7514]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>cover</wp:meta_key>
-			<wp:meta_value><![CDATA[63]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_cover</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f464dd7662]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>hasread</wp:meta_key>
-			<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_hasread</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f4704a7511]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 				<title>favicon</title>
 		<link>http://localhost:8080/bookmanager/?attachment_id=168</link>
 		<pubDate>Sun, 10 Nov 2013 13:11:22 +0000</pubDate>
@@ -2510,6 +2391,37 @@ Packed with useful information, indispensable advice, hilarious horror stories (
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
 			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:500;s:6:"height";i:802;s:4:"file";s:44:"2013/11/da9db9ae43b44dc4b035b46fe1247584.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:44:"da9db9ae43b44dc4b035b46fe1247584-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:44:"da9db9ae43b44dc4b035b46fe1247584-187x300.jpg";s:5:"width";i:187;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:0;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>960cb4f1ef944f24867367991e417446</title>
+		<link>http://localhost:8080/bookmanager/book/practical-web-2-0-applications-with-php/960cb4f1ef944f24867367991e417446/</link>
+		<pubDate>Sat, 16 Nov 2013 21:29:07 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/bookmanager/wp-content/uploads/2013/11/960cb4f1ef944f24867367991e417446.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>179</wp:post_id>
+		<wp:post_date>2013-11-16 23:29:07</wp:post_date>
+		<wp:post_date_gmt>2013-11-16 21:29:07</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>960cb4f1ef944f24867367991e417446</wp:post_name>
+		<wp:status>inherit</wp:status>
+		<wp:post_parent>178</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>attachment</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:attachment_url>http://localhost:8080/bookmanager/wp-content/uploads/2013/11/960cb4f1ef944f24867367991e417446.jpg</wp:attachment_url>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attached_file</wp:meta_key>
+			<wp:meta_value><![CDATA[2013/11/960cb4f1ef944f24867367991e417446.jpg]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_wp_attachment_metadata</wp:meta_key>
+			<wp:meta_value><![CDATA[a:5:{s:5:"width";i:600;s:6:"height";i:754;s:4:"file";s:44:"2013/11/960cb4f1ef944f24867367991e417446.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:4:{s:4:"file";s:44:"960cb4f1ef944f24867367991e417446-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";}s:6:"medium";a:4:{s:4:"file";s:44:"960cb4f1ef944f24867367991e417446-238x300.jpg";s:5:"width";i:238;s:6:"height";i:300;s:9:"mime-type";s:10:"image/jpeg";}}s:10:"image_meta";a:10:{s:8:"aperture";i:0;s:6:"credit";s:9:"Knowledge";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";i:1384644527;s:9:"copyright";s:0:"";s:12:"focal_length";i:0;s:3:"iso";i:0;s:13:"shutter_speed";i:0;s:5:"title";s:0:"";}}]]></wp:meta_value>
 		</wp:postmeta>
 	</item>
 	<item>
@@ -4313,34 +4225,34 @@ With references to Chinese, Indian, African, and Mayan cultures, among others, T
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Family Bible</title>
-		<link>http://localhost:8080/bookmanager/book/family-bible/</link>
-		<pubDate>Sun, 10 Nov 2013 11:15:35 +0000</pubDate>
+				<title>The Irreverent A-Z Wedding Guide</title>
+		<link>http://localhost:8080/bookmanager/book/the-irreverent-a-z-wedding-guide-is-the-ideal-book-for-anyone-getting-married-in-south-africa-who-is-ever-so-slightly-confused-about-the-whole-process-which-considering-what-a-wedding-entails-shoul/</link>
+		<pubDate>Sun, 10 Nov 2013 10:16:21 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false"></guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>160</wp:post_id>
-		<wp:post_date>2013-11-10 13:15:35</wp:post_date>
-		<wp:post_date_gmt>2013-11-10 11:15:35</wp:post_date_gmt>
+		<wp:post_id>158</wp:post_id>
+		<wp:post_date>2013-11-10 12:16:21</wp:post_date>
+		<wp:post_date_gmt>2013-11-10 10:16:21</wp:post_date_gmt>
 		<wp:comment_status>closed</wp:comment_status>
 		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>family-bible</wp:post_name>
+		<wp:post_name>the-irreverent-a-z-wedding-guide-is-the-ideal-book-for-anyone-getting-married-in-south-africa-who-is-ever-so-slightly-confused-about-the-whole-process-which-considering-what-a-wedding-entails-shoul</wp:post_name>
 		<wp:status>publish</wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type>book</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="book_genre" nicename="bible"><![CDATA[Bible]]></category>
+		<category domain="book_genre" nicename="secular"><![CDATA[Secular]]></category>
 		<wp:postmeta>
 			<wp:meta_key>_edit_last</wp:meta_key>
 			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>subtitle</wp:meta_key>
-			<wp:meta_value><![CDATA[The Holy Bible, King James Version]]></wp:meta_value>
+			<wp:meta_value><![CDATA[The Irreverent A-Z Wedding Guide]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_subtitle</wp:meta_key>
@@ -4348,7 +4260,7 @@ With references to Chinese, Indian, African, and Mayan cultures, among others, T
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>author</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Martin Heller; Francesca Bourke]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_author</wp:meta_key>
@@ -4356,7 +4268,7 @@ With references to Chinese, Indian, African, and Mayan cultures, among others, T
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>isbn</wp:meta_key>
-			<wp:meta_value><![CDATA[9781432102562]]></wp:meta_value>
+			<wp:meta_value><![CDATA[9780987005847]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_isbn</wp:meta_key>
@@ -4364,7 +4276,7 @@ With references to Chinese, Indian, African, and Mayan cultures, among others, T
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>rating</wp:meta_key>
-			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_rating</wp:meta_key>
@@ -4372,7 +4284,7 @@ With references to Chinese, Indian, African, and Mayan cultures, among others, T
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>pagecount</wp:meta_key>
-			<wp:meta_value><![CDATA[1008]]></wp:meta_value>
+			<wp:meta_value><![CDATA[232]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_pagecount</wp:meta_key>
@@ -4380,7 +4292,7 @@ With references to Chinese, Indian, African, and Mayan cultures, among others, T
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>publisher</wp:meta_key>
-			<wp:meta_value><![CDATA[Christian Art Publishers]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Burnet Media]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_publisher</wp:meta_key>
@@ -4388,7 +4300,7 @@ With references to Chinese, Indian, African, and Mayan cultures, among others, T
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>datepublished</wp:meta_key>
-			<wp:meta_value><![CDATA[1611]]></wp:meta_value>
+			<wp:meta_value><![CDATA[2012-04-01]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_datepublished</wp:meta_key>
@@ -4396,11 +4308,11 @@ With references to Chinese, Indian, African, and Mayan cultures, among others, T
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>description</wp:meta_key>
-			<wp:meta_value><![CDATA[In 1604, King James I of England authorized that a new translation of the Bible into English be started. It was finished in 1611. The Authorized Version, or King James Version, quickly became the standard for English-speaking Protestants.
+			<wp:meta_value><![CDATA[The Irreverent A-Z Wedding Guide is the ideal book for anyone getting married in South Africa who is ever-so-slightly confused about the whole process. Which, considering what a wedding entails, should be just about the lot of you.
 
-Its flowing language and prose rhythm has had a profound influence on the literature of the past 400 years.
+Don’t know what a boutonniere is? Wondering how to choose a wedding planner? Or what to say in your speech? Need contact details for dressmakers or cake bakers? Advice on coping with your future in-laws? Think the wedding industry is a bit OTT? Don’t worry. Whether you’re the bride or groom – or anyone else attending – we’ve got you covered.
 
-With more than 6 billion copies published, the Bible is the most popular book in the world, and the King James Bible is the most published Bible translation.]]></wp:meta_value>
+Packed with useful information, indispensable advice, hilarious horror stories (all true) and recommended service-provider listings, The Irreverent A-Z Wedding Guide is the (independent) answer to all your wedding-related questions.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_description</wp:meta_key>
@@ -4408,7 +4320,7 @@ With more than 6 billion copies published, the Bible is the most popular book in
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>notes</wp:meta_key>
-			<wp:meta_value><![CDATA[My most precious purchase.]]></wp:meta_value>
+			<wp:meta_value><![CDATA[R150]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_notes</wp:meta_key>
@@ -4416,7 +4328,7 @@ With more than 6 billion copies published, the Bible is the most popular book in
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>cover</wp:meta_key>
-			<wp:meta_value><![CDATA[74]]></wp:meta_value>
+			<wp:meta_value><![CDATA[63]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_cover</wp:meta_key>
@@ -4518,12 +4430,12 @@ With more than 6 billion copies published, the Bible is the most popular book in
 			<wp:meta_value><![CDATA[For centuries, the Christian church has taught that Jesus is the divine Son of God, crucified for sinners and raised from the dead. In recent years, however, that picture of Jesus has come under widely publicized attack from sources ranging from critical scholars to Internet pundits to popular historians and others.
 
 The new portraits of Jesus seem persuasive. You can't help but wonder ...
-
-* Did Christianity merely copy its beliefs from earlier mythology?
-* Did the church suppress alternate gospels?
-* Did Jesus never die on the cross or rise from the dead for sinners?
-* Is the New Testament hopelessly riddled with errors?
-
+<ul>
+	<li>Did Christianity merely copy its beliefs from earlier mythology?</li>
+	<li>Did the church suppress alternate gospels?</li>
+	<li>Did Jesus never die on the cross or rise from the dead for sinners?</li>
+	<li>Is the New Testament hopelessly riddled with errors?</li>
+</ul>
 New York Times bestselling author Lee Strobel helps you separate truth from media hype, sound scholarship from bias, and fact from speculation. Digging below the surface, this book provides credible, informed answers to today's most pressing questions about Jesus.]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
@@ -4764,18 +4676,19 @@ Where Is God When It Hurts? will speak to those for whom life sometimes just doe
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>description</wp:meta_key>
-			<wp:meta_value><![CDATA[Today's #1-selling study Bible, The Life Application Study Bible,is now available in personal size editions in the KJV. The Life Application Study Bibleincludes nearly 10,000 notes and features designed to help the reader apply God's truth to everyday life.
+			<wp:meta_value><![CDATA[Today's #1-selling study Bible, The Life Application Study Bible,is now available in personal size editions in the KJV. The Life Application Study Bible includes nearly 10,000 notes and features designed to help the reader apply God's truth to everyday life.
+
 FEATURES:
 <ul>
 	<li>King James Version Over 300 new Life Application notes and significant revisions to nearly 350 others 16 new personality profiles</li>
 	<li>Most charts revised to clarify meaning and importance, plus eight all-new charts</li>
 	<li>New information on the inter-testamental period</li>
-	<li>Christian Worker's Resource: A special supplement to enhance the reader's ministry effectiveness</li>
+	<li><em>Christian Worker's Resource</em>: A special supplement to enhance the reader's ministry effectiveness</li>
 	<li>7.7 font size</li>
-	<li>How to Become a Believer — Outlines the basic steps and verses to guide someone to faith in Christ</li>
-	<li>How to Follow Up with a New Believer — Provides 14 discussion points to use when discipling a new Christian</li>
-	<li>Mining the Treasures of the LASB — Includes frequently asked questions in 25 different categories and a map to the various Life Application notes that answer them</li>
-	<li>So You've Been Asked to Speak — Offers advice on preparing a talk or Bible study using the many features of the Life Application Study Bible</li>
+	<li><em>How to Become a Believer</em> — Outlines the basic steps and verses to guide someone to faith in Christ</li>
+	<li><em>How to Follow Up with a New Believer</em> — Provides 14 discussion points to use when discipling a new Christian</li>
+	<li><em>Mining the Treasures of the LASB</em> — Includes frequently asked questions in 25 different categories and a map to the various Life Application notes that answer them</li>
+	<li><em>So You've Been Asked to Speak</em> — Offers advice on preparing a talk or Bible study using the many features of the Life Application Study Bible</li>
 </ul>]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
@@ -5163,7 +5076,7 @@ Also featuring introductions for each Bible book, color maps of biblical lands, 
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>Kjv Mini Pocket Edition</title>
+				<title>KJV Mini Pocket Edition</title>
 		<link>http://localhost:8080/bookmanager/book/holy-bible-kjv-mini-pocket-edition/</link>
 		<pubDate>Sun, 10 Nov 2013 11:28:49 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
@@ -6141,7 +6054,7 @@ This unique resource offers everyday moms and dads the tools and encouragement t
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>author</wp:meta_key>
-			<wp:meta_value><![CDATA[Strobel, Lee]]></wp:meta_value>
+			<wp:meta_value><![CDATA[Lee Strobel]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_author</wp:meta_key>
@@ -7067,126 +6980,6 @@ The work also details differences between Sephardic and Ashkenazi Jews and the s
 		</wp:postmeta>
 	</item>
 	<item>
-				<title>In the Beginning Was Information</title>
-		<link>http://localhost:8080/bookmanager/book/in-the-beginning-was-information/</link>
-		<pubDate>Sun, 10 Nov 2013 11:48:41 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false"></guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>145</wp:post_id>
-		<wp:post_date>2013-11-10 13:48:41</wp:post_date>
-		<wp:post_date_gmt>2013-11-10 11:48:41</wp:post_date_gmt>
-		<wp:comment_status>closed</wp:comment_status>
-		<wp:ping_status>closed</wp:ping_status>
-		<wp:post_name>in-the-beginning-was-information</wp:post_name>
-		<wp:status>publish</wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type>book</wp:post_type>
-		<wp:post_password></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-		<category domain="book_genre" nicename="apologetics"><![CDATA[Apologetics]]></category>
-		<category domain="book_genre" nicename="science"><![CDATA[Science]]></category>
-		<wp:postmeta>
-			<wp:meta_key>_edit_last</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>subtitle</wp:meta_key>
-			<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_subtitle</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f46dda750f]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>author</wp:meta_key>
-			<wp:meta_value><![CDATA[Gitt, Werner]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_author</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f45f0d7660]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>isbn</wp:meta_key>
-			<wp:meta_value><![CDATA[3893972552]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_isbn</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f46b5a750e]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>rating</wp:meta_key>
-			<wp:meta_value><![CDATA[4]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_rating</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f46e6a7510]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>pagecount</wp:meta_key>
-			<wp:meta_value><![CDATA[256]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_pagecount</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f4780a7512]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>publisher</wp:meta_key>
-			<wp:meta_value><![CDATA[Christliche Literatur-verbreitung]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_publisher</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f4614d7661]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>datepublished</wp:meta_key>
-			<wp:meta_value><![CDATA[2000/12/01]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_datepublished</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f47cca7515]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>description</wp:meta_key>
-			<wp:meta_value><![CDATA[Powerful evidence for the existence of a personal God. INFORMATION IS THE CORNERSTONE OF LIFE, yet it is something people don't often think about. In his fascinating new book, In the Beginning Was Information, Dr. Werner Gitt helps the reader see how the very presence of information reveals a Designer: Do we take for granted the presence of information that organizes every part of the human body, from hair color to the way internal organs work?
-
-What is the origin of all our complicated data? How is it that information in our ordered universe is organized and processed? Gitt explains the necessity of information and more importantly, the need for an Organizer and Originator of that information.
-
-The huge amount of information present in just a small amount of DNA alone refutes the possibility of a non-intelligent beginning for life. It all points to a Being who not only organizes biological data, but also cares for the creation.]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_description</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f47a0a7513]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>notes</wp:meta_key>
-			<wp:meta_value><![CDATA[Just lovely. The right mixture of complexity and scripture. The author really taught me a lot about how preposterous the evolutionary model is given what we know about infofmation theory. Plus 100 points to Mr Gitt!]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_notes</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f47bba7514]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>cover</wp:meta_key>
-			<wp:meta_value><![CDATA[92]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_cover</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f464dd7662]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>hasread</wp:meta_key>
-			<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-		<wp:postmeta>
-			<wp:meta_key>_hasread</wp:meta_key>
-			<wp:meta_value><![CDATA[field_527f4704a7511]]></wp:meta_value>
-		</wp:postmeta>
-	</item>
-	<item>
 				<title>The Great Texts of the Bible</title>
 		<link>http://localhost:8080/bookmanager/book/the-great-texts-of-the-bible/</link>
 		<pubDate>Sun, 10 Nov 2013 11:38:32 +0000</pubDate>
@@ -7289,6 +7082,131 @@ The Great Texts of the Bible is perfect for pastors and anyone wanting expositor
 		<wp:postmeta>
 			<wp:meta_key>cover</wp:meta_key>
 			<wp:meta_value><![CDATA[76]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_cover</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f464dd7662]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>hasread</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_hasread</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f4704a7511]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Family Bible</title>
+		<link>http://localhost:8080/bookmanager/book/family-bible/</link>
+		<pubDate>Sun, 10 Nov 2013 11:15:35 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>160</wp:post_id>
+		<wp:post_date>2013-11-10 13:15:35</wp:post_date>
+		<wp:post_date_gmt>2013-11-10 11:15:35</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>family-bible</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>book</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="book_genre" nicename="bible"><![CDATA[Bible]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>subtitle</wp:meta_key>
+			<wp:meta_value><![CDATA[The Holy Bible, King James Version]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_subtitle</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f46dda750f]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>author</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_author</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f45f0d7660]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>isbn</wp:meta_key>
+			<wp:meta_value><![CDATA[9781432102562]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_isbn</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f46b5a750e]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rating</wp:meta_key>
+			<wp:meta_value><![CDATA[5]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_rating</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f46e6a7510]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>pagecount</wp:meta_key>
+			<wp:meta_value><![CDATA[1008]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_pagecount</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f4780a7512]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>publisher</wp:meta_key>
+			<wp:meta_value><![CDATA[Christian Art Publishers]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_publisher</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f4614d7661]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>datepublished</wp:meta_key>
+			<wp:meta_value><![CDATA[1611]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_datepublished</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f47cca7515]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>description</wp:meta_key>
+			<wp:meta_value><![CDATA[In 1604, King James I of England authorized that a new translation of the Bible into English be started. It was finished in 1611. The Authorized Version, or King James Version, quickly became the standard for English-speaking Protestants.
+
+Its flowing language and prose rhythm has had a profound influence on the literature of the past 400 years.
+
+The wording of the King James Bible represents the labors of centuries of brilliant, believing, sacrificial, godly scholarship. Dozens of some of the best biblical linguists who have ever lived applied their minds and their prayers to translating into English PRECISELY what the Hebrew and Greek text mean.
+
+The early 17th century was also an hour in which the English language was at its apex.
+<blockquote>
+<p style="text-align: left;"><em>"The English language had passed through many and great changes, and had at last reached the very height of its purity and strength. The Bible has ever since been the grand English classic. It is still the noblest monument of the power of the English speech. It is the pattern and standard of excellence therein."</em></p>
+</blockquote>
+With more than 6 billion copies published, the Bible is the most popular book in the world, and the King James Bible is the most published Bible translation. The King James Bible is a masterpiece of Bible translation. It wonderfully conforms to the Hebrew and Greek. Its English language is peerless. It has been called “The Miracle of English Prose.”]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_description</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f47a0a7513]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>notes</wp:meta_key>
+			<wp:meta_value><![CDATA[My most precious purchase.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_notes</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f47bba7514]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>cover</wp:meta_key>
+			<wp:meta_value><![CDATA[74]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_cover</wp:meta_key>
@@ -7412,6 +7330,126 @@ The Great Texts of the Bible is perfect for pastors and anyone wanting expositor
 		<wp:postmeta>
 			<wp:meta_key>hasread</wp:meta_key>
 			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_hasread</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f4704a7511]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>In the Beginning Was Information</title>
+		<link>http://localhost:8080/bookmanager/book/in-the-beginning-was-information/</link>
+		<pubDate>Sun, 10 Nov 2013 11:48:41 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false"></guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>145</wp:post_id>
+		<wp:post_date>2013-11-10 13:48:41</wp:post_date>
+		<wp:post_date_gmt>2013-11-10 11:48:41</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>in-the-beginning-was-information</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>book</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="book_genre" nicename="apologetics"><![CDATA[Apologetics]]></category>
+		<category domain="book_genre" nicename="science"><![CDATA[Science]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>subtitle</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_subtitle</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f46dda750f]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>author</wp:meta_key>
+			<wp:meta_value><![CDATA[Gitt, Werner]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_author</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f45f0d7660]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>isbn</wp:meta_key>
+			<wp:meta_value><![CDATA[3893972552]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_isbn</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f46b5a750e]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rating</wp:meta_key>
+			<wp:meta_value><![CDATA[4]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_rating</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f46e6a7510]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>pagecount</wp:meta_key>
+			<wp:meta_value><![CDATA[256]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_pagecount</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f4780a7512]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>publisher</wp:meta_key>
+			<wp:meta_value><![CDATA[Christliche Literatur-verbreitung]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_publisher</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f4614d7661]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>datepublished</wp:meta_key>
+			<wp:meta_value><![CDATA[2000/12/01]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_datepublished</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f47cca7515]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>description</wp:meta_key>
+			<wp:meta_value><![CDATA[Powerful evidence for the existence of a personal God. INFORMATION IS THE CORNERSTONE OF LIFE, yet it is something people don't often think about. In his fascinating new book, In the Beginning Was Information, Dr. Werner Gitt helps the reader see how the very presence of information reveals a Designer: Do we take for granted the presence of information that organizes every part of the human body, from hair color to the way internal organs work?
+
+What is the origin of all our complicated data? How is it that information in our ordered universe is organized and processed? Gitt explains the necessity of information and more importantly, the need for an Organizer and Originator of that information.
+
+The huge amount of information present in just a small amount of DNA alone refutes the possibility of a non-intelligent beginning for life. It all points to a Being who not only organizes biological data, but also cares for the creation.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_description</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f47a0a7513]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>notes</wp:meta_key>
+			<wp:meta_value><![CDATA[Just lovely. The right mixture of science and scripture. The author really taught me a lot about how preposterous the evolutionary model is given what we know about information theory. Plus 100 points to Mr Gitt!]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_notes</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f47bba7514]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>cover</wp:meta_key>
+			<wp:meta_value><![CDATA[92]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_cover</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f464dd7662]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>hasread</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_hasread</wp:meta_key>
@@ -7903,6 +7941,146 @@ John Brown (1722-1787) was a Scottish weaver who became a Presbyterian minister.
 		<wp:postmeta>
 			<wp:meta_key>cover</wp:meta_key>
 			<wp:meta_value><![CDATA[176]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_cover</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f464dd7662]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+	<item>
+				<title>Practical Web 2.0 Applications with PHP</title>
+		<link>http://localhost:8080/bookmanager/book/practical-web-2-0-applications-with-php/</link>
+		<pubDate>Sat, 16 Nov 2013 21:29:23 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost:8080/bookmanager/?post_type=book&#038;p=178</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>178</wp:post_id>
+		<wp:post_date>2013-11-16 23:29:23</wp:post_date>
+		<wp:post_date_gmt>2013-11-16 21:29:23</wp:post_date_gmt>
+		<wp:comment_status>closed</wp:comment_status>
+		<wp:ping_status>closed</wp:ping_status>
+		<wp:post_name>practical-web-2-0-applications-with-php</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>book</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<category domain="book_genre" nicename="secular"><![CDATA[Secular]]></category>
+		<wp:postmeta>
+			<wp:meta_key>_edit_last</wp:meta_key>
+			<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>subtitle</wp:meta_key>
+			<wp:meta_value><![CDATA[Expert's Voice]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_subtitle</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f46dda750f]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>author</wp:meta_key>
+			<wp:meta_value><![CDATA[Quentin Zervaas]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_author</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f45f0d7660]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>isbn</wp:meta_key>
+			<wp:meta_value><![CDATA[1590599063]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_isbn</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f46b5a750e]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>rating</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_rating</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f46e6a7510]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>pagecount</wp:meta_key>
+			<wp:meta_value><![CDATA[569]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_pagecount</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f4780a7512]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>publisher</wp:meta_key>
+			<wp:meta_value><![CDATA[Apress]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_publisher</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f4614d7661]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>datepublished</wp:meta_key>
+			<wp:meta_value><![CDATA[20-12-2007]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_datepublished</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f47cca7515]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>hasread</wp:meta_key>
+			<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_hasread</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f4704a7511]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>description</wp:meta_key>
+			<wp:meta_value><![CDATA[In <em>Practical Web 2.0 Applications with PHP</em>, PHP, MySQL, CSS, XHTML, and JavaScript/Ajax development techniques are brought together to show you how to create the hottest PHP web applications, from planning and design up to final implementation, without going over unnecessary basics that will hold you back. This book includes must–have application features such as search functionality, maps, blogs, dynamic image galleries, and personalized user areas. The Zend Framework is used extensively to build the application, allowing you to focus on developing the application rather than on reinventing the wheel.
+
+Topics covered include application planning and design, setting up the application framework, using CSS for easier styling, adding dynamic effects the easy way using JavaScript libraries such as Prototype and script.aculo.us, and implementing several must–have web application features such as user login, blogs, dynamic image galleries, search functionality, mapping with Google Maps, and much more. Zervaas covers everything in a practical, tutorial style so you can start working on your own projects as quickly as possible.
+<ul>
+	<li>Create cutting–edge PHP/MySQL web applications</li>
+	<li>Implement must–have functionality such as blogs, maps, search functionality, and dynamic image galleries</li>
+	<li>Master styling with CSS and dynamic effects using Ajax/JavaScript libraries</li>
+</ul>
+<h3>
+What you’ll learn</h3>
+<ul>
+	<li>How to set up the perfect PHP/MySQL application development environment</li>
+	<li>How to implement basic user management functionality</li>
+	<li>How to use many of the components from the Zend Framework</li>
+	<li>How to effectively make use of the Prototype and script.aculo.us JavaScript libraries, including many examples of developing custom JavaScript classes</li>
+	<li>How to create standards–compliant and accessible HTML code and effectively style it using CSS</li>
+	<li>How to create a basic blog system and enhance it with Ajax</li>
+	<li>How to add personalized user areas to your web application</li>
+	<li>How to create a dynamic image gallery</li>
+	<li>How to add search functionality to your application</li>
+	<li>How to use the Google Maps API to add maps to your application</li>
+	<li>How to implement popular Web 2.0 features, such as microformats, tags, and web feeds</li>
+</ul>
+<h3>
+Who this book is for</h3>
+This book is for any PHP developer who wants to stay ahead of the curve, with practical, high–level web application development techniques.]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_description</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f47a0a7513]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>notes</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_notes</wp:meta_key>
+			<wp:meta_value><![CDATA[field_527f47bba7514]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>cover</wp:meta_key>
+			<wp:meta_value><![CDATA[179]]></wp:meta_value>
 		</wp:postmeta>
 		<wp:postmeta>
 			<wp:meta_key>_cover</wp:meta_key>

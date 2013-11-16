@@ -1,19 +1,23 @@
-<?php get_header(); 
+<?php 
+
+get_header(); 
 
 $pageTitle = single_cat_title( '', false );
 
 get_template_part( 'partials/title', 'page' ); 
 
-if ( have_posts() ) : ?>
+if ( have_posts() ) : 
 
-	<?php while ( have_posts() ) : the_post(); ?>
+	while ( have_posts() ) : the_post(); 
 
-	<?php get_template_part( 'partials/loop', 'page' ); ?>
+		get_template_part( 'partials/loop', 'page' ); 
 
-	<?php endwhile; ?>
+	endwhile; 
 
-	<?php get_template_part( 'partials/foot', 'page' ); ?>	
+	get_template_part( 'partials/foot', 'page' ); 
 
-<?php endif; ?>
+endif; 
 
-<?php get_footer(); ?>
+get_footer(); 
+
+?>

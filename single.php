@@ -48,7 +48,7 @@ $read = get_field('hasread') ? 'read' : 'unread';
     </div>
 
     <div class="postmeta">
-		<span class="<?php echo $read;?>"> <?php echo get_field('pagecount'); ?> pages</span>
+		<span class="<?php echo $read;?>"> <?php echo get_field('pagecount') . ' pages | ' . get_field('publisher') ?: get_field('datepublished'); ?></span>
 	</div>
 
 </div>

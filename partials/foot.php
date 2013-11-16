@@ -4,7 +4,8 @@
 			<?php posts_nav_link('&nbsp;&nbsp;'); ?>
 		</p>
 	</div>
-  <div class="search">
+  	
+  	<div class="search">
 		<?php get_search_form(); ?>
 	</div>
 </div>
