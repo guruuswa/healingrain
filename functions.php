@@ -146,11 +146,16 @@ function good_english_result($result) {
 	return $output;
 }
 
+function redirect_dashboard() {
+    wp_safe_redirect( add_query_arg( array('post_type' => 'book'), admin_url('edit.php')) );
+    die();
+}
 
 add_action('init', 'create_book_type');
 add_action('pre_get_posts', 'book_orderby');
 add_action('init', 'create_book_genres', 0) ;
 add_action("login_head", "book_change_login_image");
+add_action('load-index.php', 'redirect_dashboard');
 
 add_filter('the_author', 'book_author_name');
 add_filter('get_the_author_display_name', 'book_author_name');

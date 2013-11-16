@@ -11,6 +11,7 @@ foreach($categories as $cat) {
 	$cats .= sprintf('<a href="%s">%s</a>, ', get_term_link($cat), $cat->name);
 }
 
+$notes = get_field('notes');
 $read = get_field('hasread') ? 'read' : 'unread';
 
 ?>
@@ -36,6 +37,13 @@ $read = get_field('hasread') ? 'read' : 'unread';
         <div class="synopsis">
         	<?php echo get_field('description'); ?>
         </div>
+    
+        <?php if(!empty($notes)) : ?>
+            <div class="notes">
+                <?php echo $notes; ?>
+            </div>
+        <?php endif ?>
+
         <div class="clear"></div>
     </div>
 
@@ -44,6 +52,7 @@ $read = get_field('hasread') ? 'read' : 'unread';
 	</div>
 
 </div>
+
 
 <div id="main">
   	<div class="navigation button-link arrows">

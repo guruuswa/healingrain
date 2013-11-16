@@ -2,9 +2,12 @@
 
 $search = get_search_query(); 
 
+$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+
 $args = array(
    'post_type' => 'book',
-   'posts_per_page' => 10,
+   'posts_per_page' => 20,
+   'paged' => $paged,
    'meta_query' => array(
       'relation' => 'OR',
        array(
@@ -25,48 +28,24 @@ $args = array(
    )
  );
 
-$args['paged'] = max( get_query_var( 'paged' ), 1 );
-
 $query = new WP_Query( $args );
+
+$pageTitle = sprintf('%s <em>%s</em>', good_english_result($query->post_count), $search);
 
 ?>
 
-<div class="title">
-    <h2> <?php echo good_english_result($query->post_count); ?> <em><?php the_search_query() ?></em></h2>
-</div>
+<?php get_template_part( 'partials/title', 'page' ); ?>
 
 <?php if ( $query->have_posts() ) : ?>
 
 	<?php while ( $query->have_posts() ) : $query->the_post(); ?>
 
-		<?php $cover = get_field('cover')['sizes']['medium']; ?>
+	<?php get_template_part( 'partials/loop', 'page' ); ?>
 
-		<div class="revbox clearfix">
-		    <div class="revleft">
-		        <img class="thumb" src="<?php echo $cover; ?>">
-		        <span><strong><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></strong></span>
-		        <span><?php echo get_field('author'); ?></span>
-		        <span><?php echo get_field('pagecount'); ?> pages</span>
-		    </div>
-		    <div class="revright">
-		        <span class="ratebg">
-		        	<span class="rstar rate-<?php echo get_field('rating'); ?>"></span>
-		        </span>
-		    </div>
-		</div>
 	<?php endwhile; ?>
 
 <?php endif; ?>
 
-<div id="main">
-  	<div class="navigation button-link">
-		<p>
-			<?php posts_nav_link('&nbsp;&nbsp;'); ?>
-		</p>
-	</div>
-  <div class="search">
-		<?php get_search_form(); ?>
-	</div>
-</div>
+<?php get_template_part( 'partials/foot', 'page' ); ?>
 
 <?php get_footer(); ?>
