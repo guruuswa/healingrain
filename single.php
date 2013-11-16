@@ -15,10 +15,6 @@ $read = get_field('hasread') ? 'read' : 'unread';
 
 ?>
 
- <a class="kumba" href="<?php echo get_site_url(); ?>/book">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/kumba.png" border="0"/>
- </a>
-
   <div class="post clearfix" id="post-2063">
 
     <div class="title">
@@ -49,24 +45,25 @@ $read = get_field('hasread') ? 'read' : 'unread';
 
 </div>
 
+<div id="main">
+  	<div class="navigation button-link arrows">
+		<p>
+			<?php previous_post_link_plus( array(
+				'order_by' => 'post_title',
+				'in_same_cat' => false,
+				'format' => '%link',
+				'link' => '&#65513;',
+			) ); ?> 
 
-<div class="navigation arrows">
-<p>
-<?php previous_post_link_plus( array(
-	'order_by' => 'post_title',
-	'in_same_cat' => false,
-	'format' => '%link',
-	'link' => '&#65513;',
-	) ); ?> 
-
-<?php next_post_link_plus( array(
-	'order_by' => 'post_title',
-	'in_same_cat' => false,
-	'format' => '%link',
-	'link' => '&#65515;',
-	) ); ?>
-
-</p></div> 
+			<?php next_post_link_plus( array(
+				'order_by' => 'post_title',
+				'in_same_cat' => false,
+				'format' => '%link',
+				'link' => '&#65515;',
+			) ); ?>
+		</p>
+	</div>
+</div>
 
 <?php endwhile; else: ?>
 

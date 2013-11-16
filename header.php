@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
   <title><?php bloginfo('name'); ?> | <?php is_home() ? bloginfo('description') : wp_title(''); ?></title>
-  <meta charset="utf-8">
+  <meta charset="<?php bloginfo( 'charset' ); ?>" />
   <meta name="author" content="K. Chikuse">
   <meta name="description" content="Bible powered library management system"/>
   <meta name="robots" content="index, follow"/>

@@ -318,6 +318,7 @@ img.postimg {
     font-family: YanoneKaffeesatzRegular;
 }
 
+
 .postmeta {
     font-size: 12px;
     padding: 0px 0px;
@@ -410,7 +411,52 @@ span.categori {
       -webkit-filter: none;
     }
 
-.navigation p a {
+#main { 
+    width: 800px;
+}
+.navigation    {
+    width: 400px;
+    float: left;
+}
+
+.search  {
+    width: 600px;
+    margin-left: 585px;
+}
+
+#searchform .input {
+    border: 1px solid #ccc;
+    padding: 6px 6px;
+    outline: none;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777;
+    margin: 0;
+    width: 160px;
+    max-width: 100%;
+    background: #fff;
+    height: 19px;
+}
+
+#searchsubmit {
+    width: 80px;
+    background: #9B3607;
+    border: 1px solid #702502;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 5px 5px;
+    -webkit-box-shadow: 0px 1px 0px 0px #FFF0DB;
+    -moz-box-shadow: 0px 1px 0px 0px #FFF0DB;
+    box-shadow: 0px 1px 0px 0px #FFF0DB;
+}    
+
+.navigation {
+    width: 400px;
+}
+.button-link p a {
     width: 100px;
     background: #9B3607;
     border: 1px solid #702502;
@@ -423,12 +469,11 @@ span.categori {
     box-shadow: 0px 1px 0px 0px #FFF0DB;
     display: inline-block;
     text-align: center;
-}
-
-.navigation.arrows p a {
-    font-size: 2.5em;
     margin-right: 10px;
 }
+    .button-link.arrows p a {
+        font-size: 2.5em;
+    }
 
 .revbox {
     background: #fff2df;
