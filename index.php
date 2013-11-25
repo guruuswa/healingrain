@@ -4,8 +4,6 @@ get_header();
 
 $paged = get_query_var('paged') ? get_query_var('paged') : 1;
 
-$pageTitle = get_bloginfo('name');
-
 $posts = get_posts(array(
 	'post_type'		=> 'book',
 	'posts_per_page'=> 10,
@@ -14,13 +12,15 @@ $posts = get_posts(array(
 	'paged'			=> $paged
 ));
 
+$pageTitle = sprintf('%s (%d)', get_bloginfo('name'), wp_count_posts('book')->publish);
+
 if ($posts) : 
 
 	get_template_part( 'partials/title', 'page' );
 
 	foreach( $posts as $post ) :
 
-		get_template_part( 'partials/loop', 'page' );
+	get_template_part( 'partials/loop', 'page' );
 
 	endforeach;
 
@@ -30,4 +30,4 @@ endif;
 
 get_footer();
 
-?>
+?> 

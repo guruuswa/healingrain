@@ -19,7 +19,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 body {
     line-height: 1;
-    background: url(img/body.jpg);
+    background: url(../img/body.jpg);
 }
 
 
@@ -57,14 +57,13 @@ table {
     display: none;
 } /* End Clearfix */
 
-
 span.unread {
-    background: url(img/unread.png) left center no-repeat;
+    background: url(../img/unread.png) left center no-repeat;
     padding-left: 20px;
 }
 
 span.read {
-    background: url(img/read.png) left center no-repeat;
+    background: url(../img/read.png) left center no-repeat;
     padding-left: 20px;
 }
 
@@ -257,11 +256,11 @@ h6 {
 
 @font-face {
     font-family: 'YanoneKaffeesatzRegular';
-    src: url('fonts/YanoneKaffeesatz-Regular-webfont.eot');
-    src: url('fonts/YanoneKaffeesatz-Regular-webfont.eot?') format('embedded-opentype'),
-         url('fonts/YanoneKaffeesatz-Regular-webfont.woff') format('woff'),
-         url('fonts/YanoneKaffeesatz-Regular-webfont.ttf') format('truetype'),
-         url('fonts/YanoneKaffeesatz-Regular-webfont.svg') format('svg');
+    src: url('../fonts/YanoneKaffeesatz-Regular-webfont.eot');
+    src: url('../fonts/YanoneKaffeesatz-Regular-webfont.eot?') format('embedded-opentype'),
+         url('../fonts/YanoneKaffeesatz-Regular-webfont.woff') format('woff'),
+         url('../fonts/YanoneKaffeesatz-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/YanoneKaffeesatz-Regular-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -275,40 +274,11 @@ h6 {
 #casing {
     width: 960px;
     margin: 0px auto;
-    background: url(img/content.png);
+    background: url(../img/content.png);
     padding: 0px 0px;
 }
 
-/* Head */
-
-#masthead {
-    width: 960px;
-    margin: 0px auto;
-}
-
-#head {
-    height: 100px;
-    background: url(img/head.png);
-}
-
-#blogname {
-    width: 500px;
-    margin: 10px 0px 0px 0px;
-    float: left;
-}
-
-#blogname h1 {
-    font-size: 36px;
-    margin: 0px 0px 0px 0px;
-    padding: 15px 25px;
-}
-
-#blogname h1 a:link, #blogname h1 a:visited {
-    color: #fff;
-}
-	
-
-	
+		
 /* Article Content */
 
 #content {
@@ -417,21 +387,22 @@ span.categori {
     left: 0px; 
     top: 10px;
 }
-    .kumba img {
-        filter: gray;
-        -webkit-filter: grayscale(1);
-        -moz-transition: all 0.5s ease-in-out;
-        -webkit-transition: all 0.5s ease-in-out;
-        transition: all 0.5s ease-in-out;
-    }
-    .kumba img:hover {
-      filter: none;
-      -webkit-filter: none;
-    }
+.kumba img {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.kumba img:hover {
+  filter: none;
+  -webkit-filter: none;
+}
 
 #main { 
     width: 800px;
 }
+
 .navigation    {
     width: 400px;
     float: left;
@@ -471,9 +442,6 @@ span.categori {
     box-shadow: 0px 1px 0px 0px #FFF0DB;
 }    
 
-.navigation {
-    width: 400px;
-}
 .button-link p a {
     width: 100px;
     background: #9B3607;
@@ -532,12 +500,12 @@ span.categori {
     height: 28px;
     margin-left: 12px;
     margin-top: 20px;
-    background: url(img/rbg.png);
+    background: url(../img/rbg.png);
 }
 
 .revright span.rstar {
     height: 28px;
-    background: url(img/rstar.png);
+    background: url(../img/rstar.png);
 }
 
 .revright span.rate-0 {

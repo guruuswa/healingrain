@@ -1,0 +1,23 @@
+#loader {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    z-index: 9999 !important;
+    background-color: #000;
+    display: none;
+}
+
+.spins {
+	position:fixed !important;
+	top:50%;
+	left:50%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

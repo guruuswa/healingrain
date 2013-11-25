@@ -1,9 +1,7 @@
-<?php $cover = get_field('cover')['sizes']['medium']; ?>
-
 <div class="revbox clearfix">
     <div class="revleft">
         <a href="<?php the_permalink(); ?>">
-            <img class="thumb" src="<?php echo $cover; ?>" border="0">
+            <img class="thumb" src="<?php echo get_field('cover')['sizes']['medium']; ?>" border="0">
         </a>
         <span><strong><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></strong></span>
         <span><?php echo get_field('author'); ?></span>

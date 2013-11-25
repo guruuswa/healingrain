@@ -12,6 +12,7 @@ foreach($categories as $cat) {
 }
 
 $notes = get_field('notes');
+$subtitle = get_field('subtitle');
 $read = get_field('hasread') ? 'read' : 'unread';
 
 ?>
@@ -19,13 +20,13 @@ $read = get_field('hasread') ? 'read' : 'unread';
   <div class="post clearfix" id="post-2063">
 
     <div class="title">
-        <h2><?php the_title(); ?></h2>
+        <h2><?php the_title(); ?> </h2>
     </div>
 
     <div class="revbox clearfix">
         <div class="revleft">
-            <span><strong>Author:</strong> <?php echo get_field('author'); ?> </span>
-            <span><strong>Genre:</strong> <?php echo rtrim($cats, ', '); ?></span>
+            <span><b>Author:</b> <?php echo get_field('author'); ?> </span>
+            <span><b>Genre:</b> <?php echo rtrim($cats, ', '); ?></span>
         </div>
         <div class="revright">
             <span class="ratebg"><span class="rstar rate-<?php echo get_field('rating'); ?>"></span></span>
@@ -35,7 +36,10 @@ $read = get_field('hasread') ? 'read' : 'unread';
     <div class="entry">
         <img class="bookimg" src="<?php echo $cover; ?>">
         <div class="synopsis">
-        	<?php echo get_field('description'); ?>
+        	<?php if(!empty($subtitle)) : ?> 
+                <p><b><?php echo $subtitle; ?></b></p>
+            <?php endif ?>
+            <?php echo get_field('description'); ?>
         </div>
     
         <?php if(!empty($notes)) : ?>

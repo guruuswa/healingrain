@@ -7,7 +7,7 @@
   <meta name="description" content="Bible powered library management system"/>
   <meta name="robots" content="index, follow"/>
   <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" />   
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css" />
 </head>
 <body class="single single-book">
   <div id="wrapper">
